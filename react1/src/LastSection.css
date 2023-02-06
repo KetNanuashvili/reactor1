@@ -1,0 +1,33 @@
+.bottom-div{
+    margin: 26px auto 32px;
+    max-width: 302px;
+    width: 100%;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sircle-div{
+border-radius: 50%;
+width: 34px;
+height: 34px;
+background-color: white;
+display: flex;
+align-items: center;
+}
+.person-img{
+    width: 33px;
+    height: 33px;
+    border-radius: 1px;
+    color: white;
+    margin: 0 auto;
+}
+.describe{
+    font-size: 16px;
+    color: #8BACD9;
+    height: 20px;
+    margin-right: 6px;
+}
+span{
+    color: white;
+    margin-right: 65px;
+}

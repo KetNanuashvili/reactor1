@@ -1,0 +1,12 @@
+.picture-div{
+    background-image: url('../src/images/mainpage.png');
+        height: 300px;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        margin: 24px;
+        border-radius: 8px;
+}
+

@@ -1,0 +1,34 @@
+.App{
+  max-width: 350px;
+  border-radius: 15px;
+  background-color: #15263F;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.h2-tag{
+  width: 302px;
+  height: 28px;
+  line-height: 27.72px;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin: 350px auto 24px;
+}
+.H4-tag{
+  width: 302px;
+  height: 52px;
+  line-height: 26px;
+  font-weight: 300;
+  font-size:18px;
+  color: white;
+  margin: 0 auto 24px;
+  color: #8BACD9;
+}
+.line-div{
+  margin: 0 auto;
+max-width: 302px;
+width: 100%;
+height: 1px;
+background-color: #2E405A;
+}
