@@ -15,6 +15,10 @@
   color: white;
   margin: 350px auto 24px;
 }
+.h2-tag:hover{
+  color: #00FFF8;
+  cursor: pointer;
+}
 .H4-tag{
   width: 302px;
   height: 52px;

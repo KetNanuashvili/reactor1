@@ -31,3 +31,7 @@ span{
     color: white;
     margin-right: 65px;
 }
+span:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
