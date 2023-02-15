@@ -8,27 +8,47 @@
         position: absolute;
         margin: 24px;
         border-radius: 8px;
+        cursor: pointer;
+
 }
 .transitionDiv{
     position: absolute;
     cursor: pointer;
-    top: 50%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -50%); 
-    transition: 0.2s;
+    transform: translate(-50%, -100%); 
     background-color: aqua;
     width: 100%;
-    height: 100%;
-    opacity: 50.3%;
-    display: none;
+    height: 10px;
+    opacity: 0;
+    border-radius: 8px;
+    display: block;
+    transition: all 1s ease ;
+   
 }
 .iconImg{  
     position: relative;
     cursor: pointer;
-    top: 50%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    display: block;
+    opacity: 0;
+
 }
+.picture-div:hover .transitionDiv{
+    height: 100%;
+    transition: all 1.5s linear ;
+    opacity: 80%;
+}
+.picture-div:hover .iconImg{
+    top: 50%;
+    opacity: 100%;
+    transition: all 1.5s linear ;
+}
+.hidden{
+    display: none;
+  }
 
 
 
